@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Poppins', sans-serif;
+}
+header{
+    min-height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(resto.jpg); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-link{
+    flex: 1;
+    text-align: right;
+ }
+ .nav-link ul  li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  .nav-link ul  li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+   }
+   .nav-link ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+   }
+   .nav-link ul li:hover::after{
+    width: 100%;
+  }
+  .presentation{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    color: #ec7575;
+    display: flex;
+  }
+  .presentation .text-box{
+    padding: 5%;
+  }
+  .presentation img{
+    border-radius: 10px;
+  }
+  .monrestau{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    color: #ec7575;
+    display: flex; 
+  }
+  
+  .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .col{
+    flex-basis:31%;
+    background:#fff3f3 ;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+  .col img{
+    width: 100%;
+  }
+  .histoire{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    /* color: #ec7575; */
+    /* display: flex;  */
+  }
+  .histoire h1{
+    text-align: center;
+  }
+  /* .histoire p{
+     color: #fff;
+     font-size: 14px; */
+     /* font-weight: 300; */
+  /* } */
+  .AA{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+  .BB{
+    flex-basis: 31%;
+    background: #6b45cb;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+  }
+  .BB:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0,2);
+  }
+   /* footer */
+   .footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #777;
+    padding-top: 30px;
+  }
+  .footer h4{
+    margin-bottom: 25px;
+    margin-top: 50px;
+    font-weight: 600;
+  }
+  .icons .fa{
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    /* color: #f44336; */
+  }
+  
